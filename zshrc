@@ -17,6 +17,7 @@ export PATH="$PATH:/Users/itsencrypted/Library/Frameworks/Python.framework/Versi
 echo 'Hello from .zshrc'
 
 # Set variables
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 
 # Change ZSH Options
