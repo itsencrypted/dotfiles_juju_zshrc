@@ -17,8 +17,8 @@ export PATH="$PATH:/Users/itsencrypted/Library/Frameworks/Python.framework/Versi
 echo 'Hello from .zshrc'
 
 # Set variables
+#Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-
 
 # Change ZSH Options
 
@@ -35,7 +35,7 @@ RPROMPT='%*'
 # Add locations to the $PATH variable
 
 
-# Write Handy functions
+# Write Handy functions`````
 function mkcd(){
    mkdir -p "$@" && cd "$_";
 }
