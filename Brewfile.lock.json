@@ -14,7 +14,7 @@
         "revision": "6e099b9edd35429ea37b7f5d9af649ba44afdb66"
       },
       "homebrew/core": {
-        "revision": "abce7c631f49963d8a009b7509968adeee57bd53"
+        "revision": "d7ee8d372de010a2a0b5374727d7382599003a71"
       },
       "homebrew/services": {
         "revision": "40980e19024ef3afa63a3c0f4a7bccddd1ae8030"
@@ -128,6 +128,31 @@
             }
           }
         }
+      },
+      "git": {
+        "version": "2.30.0",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.30.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "7e0f30621e1a5be89bf604eacdca8de9a79bd16c273a1d6f4dd39c6f806d4b98"
+            },
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.30.0.big_sur.bottle.tar.gz",
+              "sha256": "bd4dd57a4740df3c596377954d45fcf2b08db83f7d8853f5361db1d158a6bdb8"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.30.0.catalina.bottle.tar.gz",
+              "sha256": "091c6e512e9dd5c3373f75a9b495dbe42f9852d93dab4c72d3fb2c8e01738953"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.30.0.mojave.bottle.tar.gz",
+              "sha256": "bd96accac4e05c8799b062772ab943a10e9ff25784f2828c5c25b2debd3d2f13"
+            }
+          }
+        }
       }
     }
   },
@@ -136,7 +161,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.0.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "abce7c631f49963d8a009b7509968adeee57bd53",
+        "Homebrew/homebrew-core": "d7ee8d372de010a2a0b5374727d7382599003a71",
         "CLT": "12.3.0.0.1.1607026830",
         "Xcode": "12.4",
         "macOS": "11.1"
