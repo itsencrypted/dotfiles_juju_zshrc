@@ -17,6 +17,8 @@ brew "python@3.9", link: false
 brew "httpie"
 # Configurable static site generator
 brew "hugo"
+# Mac App Store command-line interface
+brew "mas"
 # Internet file retriever
 brew "wget"
 # The Dart SDK
@@ -25,3 +27,10 @@ brew "dart-lang/dart/dart"
 brew "heroku/brew/heroku"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+mas "Developer", id: 640199958
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Slack", id: 803453959
+mas "Snappy", id: 512617038
+mas "Xcode", id: 497799835
