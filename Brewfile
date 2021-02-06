@@ -7,6 +7,8 @@ tap "homebrew/services"
 tap "mongodb/brew"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Modern replacement for 'ls'
+brew "exa"
 # Distributed revision control system
 brew "git"
 # Interpreted, interactive, object-oriented programming language
