@@ -1,5 +1,3 @@
-tap "dart-lang/dart"
-tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -16,16 +14,10 @@ brew "python@3.9", link: false
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Configurable static site generator
-brew "hugo"
-# Mac App Store command-line interface
 brew "mas"
 # Internet file retriever
 brew "wget"
-# The Dart SDK
-brew "dart-lang/dart/dart"
 # Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
-# High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 mas "Developer", id: 640199958
 mas "Keynote", id: 409183694
